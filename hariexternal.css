@@ -4,23 +4,37 @@
             background-color:white;
             
         }
-        #contactboxapply{
+        #list1 li{
+          display: inline-block;
+          float: left;
+          padding: 20px 20px 20px;
+        }
+        #list2 li{
+            float: right;
+    display: inline-block;
+    padding:30px;
+        }
+        #list2 li{
             color: black;
-            text-underline-offset: none;
+        }
+        #btn{
+            border-color: black;
             }
-.navbar{
-    padding-top: 20px;
-}
-        #homeblacktext{
-        color: black;
-        }
-        #navclass{
-            background-color: white;
-            border:none;
-        }
-        .headchange{
-            width:300px;
-            clear: left;
-            margin: none;
-        }
+            #p{
+                padding:none;
+                margin:none;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-optical-sizing: 10px;
+                font-size:26px;
+                margin-left: 10px;
+                width:200px;
+                float: left;
+                padding-left: 50px;
+                padding-top: 20px;
+            
+            }
+        
+        
+        
+        
     
