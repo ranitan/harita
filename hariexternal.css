@@ -1,74 +1,76 @@
 body {
-    background-color: white;
+
+    background-color: #e9e7e7;
 
 }
 
-#list1 li {
-    display: inline-block;
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
     float: left;
-    margin-top: 10px;
-    padding: 50px 20px 20px;
-    font-size: medium;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: left;
 }
 
-#list2 li {
-    margin-right: 30;
-float:right;
-    margin-left: 10px;
-    display: inline-block;
-    padding: 60px;
-    font-size: medium;
+.topnav a:hover {
+    background-color: black;
+    color: grey;
 }
 
-#list2 li {
+.topnav a.split {
+    float: right;
+    background-color: #e9e7e7;
     color: black;
-}
-
-#btn {
-    border-color: black;
-}
-
-#p {
-    padding: none;
-    margin: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 26px;
-    margin-left: 86px;
-    float: left;
-    padding-right: 50px;
-    padding-top: 30px;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: -1px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
 
 }
 
-#img {
-    border-radius: 2px;
-    margin-top: 39px;
-    width: 700px;
-    height: 370px;
-    float:right;
-    padding-top: 30px;
+.topnav a.start {
+    color: black;
+    font-weight: bold;
 }
-#l1{
-margin-left: 30px;
+#text{
+    font-size: 81px;
+letter-spacing: -2px;
+line-height: 81px;
+color: #232323;
+font-weight: 700;
+font-family: "Cardo";
 }
-#l2{
-margin-right:30px ;
+#para{
+    width: 1136px;
+height: 146px;
+font-size: 17px;
+letter-spacing: 0px;
+color: #232323;
+font-weight: 400;
+font-family: "Lato";
+text-align: left;
 }
-#img1{
-    margin-right: 10px;
-   
+#rectangle{
+    width: 256px;
+height: 54px;
+border-radius: 5px;
+background-color: #232323;
+color: white;
+font-weight: bold;
 }
-#textpara{
-    margin-left: 86px;
-    padding: none;
-    font-weight: 300;
-    font-size:small;
-    
-}
-#btn2{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top:10px ;
-    padding-bottom: 10px;
-    font-size: medium;
+#scribblelighest{
+    opacity: 0.200;
+background-color: #919191;
 }
