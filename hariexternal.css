@@ -61,7 +61,7 @@ body {
     font-size: 81px;
     letter-spacing: -2px;
     line-height: 81px;
-    color:black;
+    color: black;
     font-weight: 700;
     font-family: "Cardo";
 }
@@ -105,10 +105,9 @@ body {
 .absolute #scribblelightest {
     position: absolute;
     top: 280px;
-    width: 500px;
-    height: 510px;
+    width: 540px;
+    height: 760px;
     right: 1100px;
-
 }
 
 .absolute #scribbledark {
@@ -120,13 +119,12 @@ body {
     margin-left: 1350px;
 }
 
- .relative1 #blackimg {
+.relative1 #blackimg {
     position: relative;
     margin-top: 300px;
     background-color: black;
     width: 100%;
     border-color: black;
-    width: 1440px;
     height: 387px;
 }
 
@@ -135,18 +133,18 @@ body {
     font-size: 55px;
     letter-spacing: -1px;
     line-height: 55px;
-    color:white;
+    color: white;
     font-weight: 700;
     font-family: "Cardo";
     text-align: center;
-    padding:30px;
-    left:450px;
-    top:800px;
+    padding: 30px;
+    left: 450px;
+    top: 800px;
 
 }
 
 .absolute1 #para1 {
-    position:absolute;
+    position: absolute;
     width: 1170px;
     height: 146px;
     font-size: 17px;
@@ -154,27 +152,26 @@ body {
     font-weight: 400;
     font-family: "Lato";
     text-align: center;
-    padding:70px 30px;
-    color:white;
-    top:900px;
-    left:100px;
+    padding: 70px 30px;
+    color: white;
+    top: 900px;
+    left: 100px;
 
 }
 
 .absolute1 #scribblelight1 {
     position: absolute;
-    color: green;
-    top:1050px;
-    left:1000px;
-    width:400px;
+    top: 1050px;
+    left: 1000px;
+    width: 400px;
 }
 
 .absolute1 #scribblelight {
     position: absolute;
-    top:850px;
-    width:400px;
-    height:100px;
-    left:0px;
+    top: 850px;
+    width: 400px;
+    height: 100px;
+    left: 0px;
 }
 
 .absolute1 #rectangle1 {
@@ -186,7 +183,595 @@ body {
     font-family: "Lato";
     text-align: center;
     background-color: black;
-    top:1100px;
-    left:560px;
-    padding:6px 30px;
+    top: 1100px;
+    left: 560px;
+    padding: 6px 30px;
 }
+
+.relative2 #p1 {
+    position: relative;
+    left: 90px;
+    padding: 10px 20px;
+
+
+}
+
+.relative2 #p2 {
+    position: relative;
+    left: 100px;
+    padding: 30px 30px;
+    padding-right: 20px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.relative2 #p3 {
+    position: relative;
+    padding: 10px;
+    padding-right: 100px;
+    left: 150px;
+}
+
+.relative2 #p4 {
+    position: relative;
+    width: 75px;
+    height: 400px;
+    top: 290px;
+    left: 75px;
+}
+
+.relative2 #p5 {
+    position: relative;
+    bottom: 420px;
+    right: 90px;
+    height: 750px;
+}
+
+.absolute2 #paragraph1 {
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+    width: 965px;
+    height: 205px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+
+}
+
+.absolute2 #paragraph2 {
+    position: absolute;
+    top: 1650px;
+    left: 560px;
+    width: 965px;
+    height: 205px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+}
+
+.absolute2 #paragraph3 {
+    position: absolute;
+    top: 1650px;
+    left: 1010px;
+    width: 965px;
+    height: 205px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+}
+
+.absolute2 #l1 {
+    position: absolute;
+    margin-left: 100px;
+    top: 1540px;
+
+}
+
+.absolute2 #l2 {
+    position: absolute;
+    margin-left: 560px;
+    top: 1540px;
+}
+
+.absolute2 #l3 {
+    position: absolute;
+    top: 1540px;
+    left: 1010px;
+
+}
+
+.absolute2 #t1 {
+    position: absolute;
+    top: 1570px;
+    left: 100px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.absolute2 #t2 {
+    position: absolute;
+    top: 1570px;
+    left: 560px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.absolute2 #t3 {
+    position: absolute;
+    top: 1570px;
+    left: 1010px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.relative3 #s3 {
+    position: relative;
+    left: 900px;
+    bottom: 440px;
+    width: 390px;
+    height: 900px;
+
+}
+
+.relative3 #sd3 {
+    position: relative;
+    bottom: 250px;
+    width: 310px;
+    left: 190px;
+
+}
+
+.relative3 #airplane {
+    position: relative;
+    left: 650px;
+    bottom: 650px;
+}
+
+.absolute3 #p3 {
+    position: absolute;
+    font-size: 90px;
+    letter-spacing: -2px;
+    line-height: 98px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+    top: 2200px;
+    left: 379px;
+}
+
+.absolute3 #or3 {
+    position: absolute;
+    width: 2000px;
+    height: 60px;
+    font-size: 23px;
+    letter-spacing: -1px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+    top: 2420px;
+    left: -295px;
+
+
+}
+
+.relative4 #i4 {
+    position: relative;
+    bottom: 550px;
+    height: 750px;
+    width: 400px;
+    left: 120px;
+}
+
+.relative4 #ii4 {
+    position: relative;
+    bottom: 760px;
+    left: 200px;
+}
+
+.relative4 #arrow {
+    position: relative;
+    bottom: 200px;
+    right: -250px;
+    height: 40px;
+
+}
+
+.relative4 #tape {
+    position: relative;
+    opacity: 0.902;
+    bottom: 550px;
+    width: 40px;
+    height: 160px;
+    right: 669px;
+
+}
+
+.absolute4 #para4 {
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    text-decoration: underline;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    left: 600px;
+    top: 3070px;
+}
+
+.absolute4 #para24 {
+    position: absolute;
+    width: 845px;
+    height: 460px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    top: 3080px;
+    left: 900px;
+
+}
+
+.absolute5 #img5 {
+    position: absolute;
+    top: 3610px;
+    left: 772px;
+    height: 500px;
+    width: 700px;
+
+}
+
+.relative5 #b5 {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    bottom: 500px;
+
+}
+
+.relative5 #sl5 {
+    position: relative;
+    bottom: 590px;
+    width: 500px;
+    right: 100px;
+}
+
+.absolute5 #para5 {
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: -1px;
+    color: white;
+    font-weight: 900;
+    font-family: "Lato";
+    top: 3940px;
+    left: 150px;
+}
+
+.absolute5 #para51 {
+    position: absolute;
+    font-size: 17px;
+    color: white;
+    letter-spacing: -1px;
+    font-weight: 900;
+    font-family: "Lato";
+    top: 3750px;
+    left: 150px;
+}
+
+.absolute5 #t5 {
+    position: absolute;
+    font-size: 55px;
+    letter-spacing: -1px;
+    line-height: 55px;
+    color: white;
+    font-weight: 700;
+    font-family: "Cardo";
+    top: 3610px;
+    left: 150px;
+}
+
+.relative6 #img6 {
+    position: relative;
+    bottom: 560px;
+    left: 950px;
+
+
+}
+
+.relative6 #r1 {
+    position: relative;
+    bottom: 600px;
+    right: 300px;
+}
+
+.relative6 #r2 {
+    position: relative;
+    bottom: 760px;
+    left: 100px;
+}
+
+.relative6 #r3 {
+    position: relative;
+    left: 100px;
+    bottom: 700px;
+}
+
+.absolute6 #p6 {
+    position: absolute;
+    font-size: 70px;
+    letter-spacing: -2px;
+    line-height: 81px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    top: 4300px;
+    left: 200px;
+}
+
+.absolute6 #p61 {
+    position: absolute;
+    width: 1316px;
+    height: 39px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    top: 4540px;
+    left: 150px;
+}
+
+.absolute6 #p62 {
+    position: absolute;
+    width: 1316px;
+    height: 39px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    left: 150px;
+    top: 4600px;
+}
+
+.absolute6 #p63 {
+    position: absolute;
+    width: 1316px;
+    height: 39px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    left: 150px;
+    top: 4670px;
+}
+
+.absolute6 #p64 {
+    position: absolute;
+    width: 1316px;
+    height: 39px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    left: 150px;
+    top: 4730px;
+}
+
+.absolute6 #p65 {
+    position: absolute;
+    width: 1316px;
+    height: 39px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    left: 150px;
+    top: 4790px;
+}
+
+.absolute6 #f1 {
+    position: absolute;
+    top: 4540px;
+    left: 750px;
+}
+
+.absolute6 #f2 {
+    position: absolute;
+    top: 4600px;
+    left: 750px;
+}
+
+.absolute6 #f3 {
+    position: absolute;
+    top: 4670px;
+    left: 750px;
+}
+
+.absolute6 #f4 {
+    position: absolute;
+    top: 4730px;
+    left: 750px;
+}
+
+.absolute6 #f5 {
+    position: absolute;
+    top: 4790px;
+    left: 750px;
+}
+
+.absolute7 #p7 {
+    position: absolute;
+    font-size: 75px;
+    letter-spacing: -2px;
+    line-height: 81px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+    top:5100px;
+    left:500px;
+}
+.absolute7 #img7{
+    position:relative ;
+    bottom:450px;
+    width:400px;
+    right:95px;
+    height:150px;
+    bottom:850px;
+}
+.relative7 #c1{
+    position: relative;
+bottom:200px;
+left:200px;
+width:350px;
+height:400px;
+}
+.relative7 #c2{
+    position: relative;
+    bottom:200px;
+    left:250px;
+    width:350px;
+height:400px;
+}
+.relative7 #c3{
+    position: relative;
+    bottom:200px;
+    left:290px;
+    width:350px;
+height:400px;
+}
+.absolute7 #c1{
+    position: absolute;
+    font-size: 25px;
+letter-spacing: -1px;
+color: #232323;
+font-weight: 900;
+font-family: "Lato";
+text-align: center;
+top:5550px;
+left:285px;
+
+}
+
+.absolute7 #c2{
+    position: absolute;
+    font-size: 25px;
+letter-spacing: -1px;
+color: #232323;
+font-weight: 900;
+font-family: "Lato";
+text-align: center;
+top:5550px;
+left:698px;
+}
+.absolute7 #c3{
+    position: absolute;
+    font-size: 25px;
+letter-spacing: -1px;
+color: #232323;
+font-weight: 900;
+font-family: "Lato";
+text-align: center;
+top:5550px;
+left:1100px;
+}
+.absolute7 #inside1{
+    position: absolute;
+    width: 817px;
+height: 147px;
+font-size: 17px;
+letter-spacing: 0px;
+color: #6d6d6d;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+top:5600px;
+right:690px;
+}
+.absolute7 #inside2{
+    position: absolute;
+    width: 817px;
+height: 147px;
+font-size: 17px;
+letter-spacing: 0px;
+color: #6d6d6d;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+top:5600px;
+right:280px;
+}
+.absolute7 #inside3{
+    position: absolute;
+    width: 817px;
+height: 147px;
+font-size: 17px;
+letter-spacing: 0px;
+color: #6d6d6d;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+top:5600px;
+left:780px;
+}
+.absolute7 #arrr{
+position: absolute;
+top:5500px;
+width:70px;
+height:55px;
+left:1300px;
+}
+.absolute7 #arrl{
+position: absolute;
+width:70px;
+height:55px;
+top:5500px;
+right:1250px;
+}
+.absolute7 #sd7{
+    position: absolute;
+    width:400px;
+    height:50px;
+    top:5750px;
+    left:1150px;
+}
+
+
+
+
