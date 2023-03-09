@@ -649,7 +649,7 @@ body {
     font-weight: 700;
     font-family: "Cardo";
     text-align: center;
-    top: 5100px;
+    top: 4950px;
     left: 500px;
 }
 
@@ -791,7 +791,7 @@ body {
 
 .relative8 #img8 {
     position: relative;
-    bottom: 200px;
+    bottom: 100px;
     left: 850px;
     height: 700px;
     width: 500px;
@@ -910,12 +910,12 @@ body {
     position: absolute;
     width: 490px;
     height: 150px;
-    top: 7200px;
+    top: 7070px;
     right: 1200px;
 }
 
 #fh {
-    top: 6900px;
+    top: 6780px;
     left: 200px;
     position: absolute;
     font-size: 63px;
@@ -934,7 +934,7 @@ body {
     color: #232323;
     font-weight: 900;
     font-family: "Lato";
-    top: 6900px;
+    top: 6770px;
     left: 500px;
 }
  #fparaa{
@@ -949,4 +949,69 @@ padding-top: 200px;
 left:350px;
 margin-top:-60px;
  }
+ h2 {
+    margin: 20px auto 40px;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 0.5;
+}
+
+details {
+    width: 75%;
+    min-height: 2px;
+    max-width: 550px;
+    padding: 15px 30px 15px 15px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 14px;
+    border-top: 3px solid black;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+details+details {
+    margin-top: 10px;
+}
+
+details[open] {
+    min-height: 30px;
+    background-color: #96999d;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .2);
+}
+
+details p {
+    color: #96999d;
+    font-weight: 300;
+}
+
+summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.control-icon-close {
+    display: none;
+}
+
+details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+}
+
+details[open] .control-icon-expand {
+    display: none;
+}
+.accord{
+    position:absolute;
+    top:4550px;
+    left:-20px;
+    width:1000px;
+}
 
