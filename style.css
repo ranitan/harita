@@ -1,6 +1,7 @@
 body {
 
     background-color: #e9e7e7;
+    overflow-x: hidden;
 
 }
 
@@ -99,6 +100,8 @@ body {
     font-weight: bold;
     margin-left: 90px;
     margin-top: 50px;
+    z-index:1;
+    border-radius:5px;
 
 }
 
@@ -108,6 +111,7 @@ body {
     width: 540px;
     height: 760px;
     right: 1100px;
+    z-index: 0;
 }
 
 .absolute #scribbledark {
@@ -795,7 +799,7 @@ body {
 
 .absolute8 #rec1 {
     position: absolute;
-    top: 5990px;
+    top: 6000px;
     width:350px;
     height:50px;
     padding-left: 20px;
@@ -804,14 +808,14 @@ body {
     left: 250px;
     font-family:lato;
     background-color: #e8e2e2;
-    border-radius: 3px;
+    border-radius: 4px;
 
 
 }
 
 .absolute8 #rec2 {
     position: absolute;
-    top: 6050px;
+    top: 6085px;
     left: 250px;
     border-width: 3px;
     border-color: black;
@@ -821,12 +825,12 @@ body {
     left: 250px;
     font-family:lato;
     background-color: #e8e2e2;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .absolute8 #rec3 {
     position: absolute;
-    top: 6119px;
+    top: 6170px;
     left: 200px;
     width:350px;
     border-width: 3px;
@@ -836,12 +840,12 @@ body {
     left: 250px;
     font-family:lato;
     background-color: #e8e2e2;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .absolute8 #rec4 {
     position: absolute;
-    top: 6190px;
+    top: 6250px;
     height: 225px;
     left: 200px;
     width:350px;
@@ -853,7 +857,7 @@ body {
     left: 250px;
     font-family:lato;
     background-color: #e8e2e2;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .absolute8 #pp1 {
@@ -884,7 +888,7 @@ body {
     background-color: #232323;
     color: #e9e7e7;
     width: 250px;
-    top: 6420px;
+    top: 6500px;
     left: 300px;
     border-radius:3px;
     padding-top: 10px;
@@ -943,5 +947,6 @@ font-family: "Lato";
 text-align: center;
 padding-top: 200px;
 left:350px;
+margin-top:-60px;
  }
 

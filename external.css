@@ -1,10 +1,10 @@
-body {
+ body {
 
     background-color: #e9e7e7;
 
 }
 
-.topnav {
+/*.topnav {
     overflow: hidden;
 }
 
@@ -949,9 +949,58 @@ left:350px;
 #para{
     background-color: #6d6d6d;
 } */
-.accordion-header{
+/* .accordion-header{
     background-color: #6d6d6d;
 }
 .accordion-button:not(.collapsed){
     background-color: #c4c4c4c4;
+} */ 
+section{
+    min-height: 100vh;
+    width:50%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.faq{
+    
+     cursor:pointer; 
+}
+.question{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question3{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+h3{
+    font-size: 15px;
+    border-spacing: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid ;
+    
+    
+
+}
+.h3accordian{
+    border-bottom: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 14px;
 }
