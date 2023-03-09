@@ -53,6 +53,7 @@ body {
     border-radius: 2px;
     top: 100px;
     right: 90px;
+    opacity:0.9;
 }
 
 .absolute #text {
@@ -196,6 +197,7 @@ body {
     position: relative;
     left: 90px;
     padding: 10px 20px;
+    opacity: 0.9;
 
 
 }
@@ -207,6 +209,7 @@ body {
     padding-right: 20px;
     padding-left: 50px;
     align-items: center;
+    opacity: 0.9;
 }
 
 .relative2 #p3 {
@@ -214,6 +217,7 @@ body {
     padding: 10px;
     padding-right: 100px;
     left: 150px;
+    opacity: 0.9;
 }
 
 .relative2 #p4 {
@@ -388,6 +392,7 @@ body {
     height: 750px;
     width: 400px;
     left: 120px;
+    opacity:0.8;
 }
 
 .relative4 #ii4 {
@@ -395,6 +400,7 @@ body {
     height:330px;
     bottom: 760px;
     left: 200px;
+    opacity: 0.8;
 }
 
 .relative4 #arrow {
@@ -449,6 +455,7 @@ body {
     left: 772px;
     height: 500px;
     width: 700px;
+    opacity:0.8;
 
 }
 
@@ -506,6 +513,7 @@ body {
     position: relative;
     bottom: 560px;
     left: 950px;
+    opacity:0.8;
 
 
 }
@@ -659,111 +667,11 @@ body {
     width: 400px;
     right: 95px;
     height: 150px;
-    bottom: 850px;
-}
-
-.relative7 #c1 {
-    position: relative;
-    bottom: 200px;
-    left: 200px;
-    width: 350px;
-    height: 400px;
-}
-
-.relative7 #c2 {
-    position: relative;
-    bottom: 200px;
-    left: 250px;
-    width: 350px;
-    height: 400px;
-}
-
-.relative7 #c3 {
-    position: relative;
-    bottom: 200px;
-    left: 290px;
-    width: 350px;
-    height: 400px;
-}
-
-.absolute7 #c1 {
-    position: absolute;
-    font-size: 25px;
-    letter-spacing: -1px;
-    color: #232323;
-    font-weight: 900;
-    font-family: "Lato";
-    text-align: center;
-    top: 5550px;
-    left: 285px;
+    bottom: 520px;
 
 }
 
-.absolute7 #c2 {
-    position: absolute;
-    font-size: 25px;
-    letter-spacing: -1px;
-    color: #232323;
-    font-weight: 900;
-    font-family: "Lato";
-    text-align: center;
-    top: 5550px;
-    left: 698px;
-}
 
-.absolute7 #c3 {
-    position: absolute;
-    font-size: 25px;
-    letter-spacing: -1px;
-    color: #232323;
-    font-weight: 900;
-    font-family: "Lato";
-    text-align: center;
-    top: 5550px;
-    left: 1100px;
-}
-
-.absolute7 #inside1 {
-    position: absolute;
-    width: 817px;
-    height: 147px;
-    font-size: 17px;
-    letter-spacing: 0px;
-    color: #6d6d6d;
-    font-weight: 400;
-    font-family: "Lato";
-    text-align: center;
-    top: 5600px;
-    right: 690px;
-}
-
-.absolute7 #inside2 {
-    position: absolute;
-    width: 817px;
-    height: 147px;
-    font-size: 17px;
-    letter-spacing: 0px;
-    color: #6d6d6d;
-    font-weight: 400;
-    font-family: "Lato";
-    text-align: center;
-    top: 5600px;
-    right: 280px;
-}
-
-.absolute7 #inside3 {
-    position: absolute;
-    width: 817px;
-    height: 147px;
-    font-size: 17px;
-    letter-spacing: 0px;
-    color: #6d6d6d;
-    font-weight: 400;
-    font-family: "Lato";
-    text-align: center;
-    top: 5600px;
-    left: 780px;
-}
 
 .absolute7 #arrr {
     position: absolute;
@@ -791,7 +699,7 @@ body {
 
 .relative8 #img8 {
     position: relative;
-    bottom: 100px;
+    bottom: -390px;
     left: 850px;
     height: 700px;
     width: 500px;
@@ -811,6 +719,10 @@ body {
     border-radius: 4px;
 
 
+}
+form{
+    position:absolute ;
+    bottom:650px;
 }
 
 .absolute8 #rec2 {
@@ -862,7 +774,7 @@ body {
 
 .absolute8 #pp1 {
     position: absolute;
-    top: 5850px;
+    top: 5950px;
     left: 250px;
     font-size: 70px;
     letter-spacing: -2px;
@@ -900,8 +812,10 @@ body {
 }
 
 #fimg {
+    position: absolute;
     width: 1540px;
     height: 575px;
+    top:6800px;
     background-color: #c4c4c4;
     border-color: #c4c4c4;
 }
@@ -910,12 +824,12 @@ body {
     position: absolute;
     width: 490px;
     height: 150px;
-    top: 7070px;
+    bottom:20px;
     right: 1200px;
 }
 
 #fh {
-    top: 6780px;
+    bottom:350px;
     left: 200px;
     position: absolute;
     font-size: 63px;
@@ -934,7 +848,7 @@ body {
     color: #232323;
     font-weight: 900;
     font-family: "Lato";
-    top: 6770px;
+    bottom:435px;
     left: 500px;
 }
  #fparaa{
@@ -1014,4 +928,31 @@ details[open] .control-icon-expand {
     left:-20px;
     width:1000px;
 }
+.card{
+    z-index: -1;
+    border-style: 5px solid;
+    border-width: 3px;
+    width:400px;
+    height:430px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #e9e7e7;
+}
+#leftarrow  {
+    position: relative;
+    right:716px;
+    top:250px;
+}
+#rightarrow{
+    position: relative;
+    left:555px;
+    top:250px;
+}
+section{
+    width:1500px;
+    position: absolute;
+    margin-top: -300px;
+}
+
+
 
