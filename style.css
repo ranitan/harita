@@ -590,26 +590,8 @@ details[open] .control-icon-expand {
     top: 4550px;
     left: -20px;
     width: 1000px;
-}/* ACCORDIAN COMPLETE CSS*/
+}/* ACCORDIAN COMPLETED*/
 
-
- /* .relative6 #r1 {
-    position: relative;
-    bottom: 600px;
-    right: 300px;
-} 
-
-.relative6 #r2 {
-    position: relative;
-    bottom: 760px;
-    left: 100px;
-}
-
-.relative6 #r3 {
-    position: relative;
-    left: 100px;
-    bottom: 700px;
-} */
 /* PARAGRAPH HEADING MIDDLE CSS*/
 .absolute6 #p6 {
     position: absolute;
@@ -623,106 +605,9 @@ details[open] .control-icon-expand {
     left: 200px;
 }
 
-/* .absolute6 #p61 {
-    position: absolute;
-    width: 1316px;
-    height: 39px;
-    font-size: 17px;
-    letter-spacing: 0px;
-    color: #232323;
-    font-weight: 400;
-    font-family: "Lato";
-    text-align: left;
-    top: 4540px;
-    left: 150px;
-}
 
-.absolute6 #p62 {
-    position: absolute;
-    width: 1316px;
-    height: 39px;
-    font-size: 17px;
-    letter-spacing: 0px;
-    color: #232323;
-    font-weight: 400;
-    font-family: "Lato";
-    text-align: left;
-    left: 150px;
-    top: 4600px;
-}
-
-.absolute6 #p63 {
-    position: absolute;
-    width: 1316px;
-    height: 39px;
-    font-size: 17px;
-    letter-spacing: 0px;
-    color: #232323;
-    font-weight: 400;
-    font-family: "Lato";
-    text-align: left;
-    left: 150px;
-    top: 4670px;
-}
-
-.absolute6 #p64 {
-    position: absolute;
-    width: 1316px;
-    height: 39px;
-    font-size: 17px;
-    letter-spacing: 0px;
-    color: #232323;
-    font-weight: 400;
-    font-family: "Lato";
-    text-align: left;
-    left: 150px;
-    top: 4735px;
-}
-
-.absolute6 #p65 {
-    position: absolute;
-    width: 1316px;
-    height: 39px;
-    font-size: 17px;
-    letter-spacing: 0px;
-    color: #232323;
-    font-weight: 400;
-    font-family: "Lato";
-    text-align: left;
-    left: 150px;
-    top: 4790px;
-}
-
-.absolute6 #f1 {
-    position: absolute;
-    top: 4540px;
-    left: 750px;
-}
-
-.absolute6 #f2 {
-    position: absolute;
-    top: 4600px;
-    left: 750px;
-}
-
-.absolute6 #f3 {
-    position: absolute;
-    top: 4670px;
-    left: 750px;
-}
-
-.absolute6 #f4 {
-    position: absolute;
-    top: 4730px;
-    left: 750px;
-}
-
-.absolute6 #f5 {
-    position: absolute;
-    top: 4795px;
-    left: 750px;
-} */
 /* SECTION 8 CSS*/
+/* TITLE  CSS*/
 .absolute7 #p7 {
     position: absolute;
     font-size: 75px;
@@ -735,7 +620,7 @@ details[open] .control-icon-expand {
     top: 4950px;
     left: 500px;
 }
-
+/* SCRIBBLE DARK LEFT CSS*/
 .absolute7 #img7 {
     position: relative;
     bottom: 450px;
@@ -746,24 +631,7 @@ details[open] .control-icon-expand {
 
 }
 
-
-
-.absolute7 #arrr {
-    position: absolute;
-    top: 5500px;
-    width: 70px;
-    height: 55px;
-    left: 1300px;
-}
-
-.absolute7 #arrl {
-    position: absolute;
-    width: 70px;
-    height: 55px;
-    top: 5500px;
-    right: 1250px;
-}
-
+/* SCRIBBLE DARK RIGHT CSS*/
 .absolute7 #sd7 {
     position: absolute;
     width: 400px;
@@ -771,7 +639,37 @@ details[open] .control-icon-expand {
     top: 5750px;
     left: 1150px;
 }
+/* CARDS WITH CAROUSEL CSS*/
+.card {
+    z-index: -1;
+    border-style: 5px solid;
+    border-width: 3px;
+    width: 400px;
+    height: 430px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #e9e7e7;
+}
 
+#leftarrow {
+    position: relative;
+    right: 716px;
+    top: 250px;
+}
+
+#rightarrow {
+    position: relative;
+    left: 555px;
+    top: 250px;
+}
+
+section {
+    width: 1500px;
+    position: absolute;
+    margin-top: -300px;
+}
+/* SECTION 9 CSS*/
+/* IMAGE WATERFALL RIGHT CSS*/
 .relative8 #img8 {
     position: relative;
     bottom: -390px;
@@ -779,7 +677,7 @@ details[open] .control-icon-expand {
     height: 700px;
     width: 500px;
 }
-
+/* FORM CSS*/
 .absolute8 #rec1 {
     position: absolute;
     top: 6000px;
@@ -846,8 +744,8 @@ form {
     font-family: lato;
     background-color: #e8e2e2;
     border-radius: 4px;
-}
-
+}/* FORM COMPLETED*/
+/* TITLE CSS*/
 .absolute8 #pp1 {
     position: absolute;
     top: 5950px;
@@ -859,18 +757,7 @@ form {
     font-weight: 700;
     font-family: "Cardo";
 }
-
-.absolute8 #pp2 {
-    position: absolute;
-    top: 5970px;
-    left: 230px;
-    font-size: 21px;
-    line-height: 17px;
-    color: #232323;
-    font-weight: 600;
-    font-family: "Lato";
-}
-
+/* BUTTON CSS*/
 .absolute8 #btn8 {
     position: absolute;
     background-color: #232323;
@@ -939,32 +826,4 @@ form {
     padding-top: 200px;
     left: 350px;
     margin-top: -60px;
-}
-.card {
-    z-index: -1;
-    border-style: 5px solid;
-    border-width: 3px;
-    width: 400px;
-    height: 430px;
-    border-radius: 10px;
-    border-color: black;
-    background-color: #e9e7e7;
-}
-
-#leftarrow {
-    position: relative;
-    right: 716px;
-    top: 250px;
-}
-
-#rightarrow {
-    position: relative;
-    left: 555px;
-    top: 250px;
-}
-
-section {
-    width: 1500px;
-    position: absolute;
-    margin-top: -300px;
 }
